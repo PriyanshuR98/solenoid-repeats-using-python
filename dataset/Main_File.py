@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import math
+import cmath
 from collections import Counter
 import scipy.stats as stats
 
@@ -46,7 +47,7 @@ dicfact5={}
 dicfact5={'A':-0.146,'C':-0.255,'D':-3.242 , 'E':-0.837 , 'F':0.412 , 'G':2.064 , 'H':-0.078 ,'I':0.816,'K':1.648,'L':-0.912,'M':1.212,'N':0.933,'P':-1.392,'Q':-1.853,'R':2.897,'S':-2.647,'T':1.313,'V':-1.262,'W':-0.184,'Y':1.512}
 
 
-# The repeating protein sequences that here is taken (3TWQ_1|Chains A, B|Tankyrase-2|Homo sapiens (9606)) from PDB
+# The repeating protein sequences that here is taken (3TWQ|Chains A, B|Tankyrase-2|Homo sapiens (9606)) from PDB
 # s="GAMGISLGNSEADRQLLEAAKAGDVETVKKLCTVQSVNCRDIEGRQSTPLHFAAGYNRVSVVEYLLQHGADVHAKDKGGLVPLHNACSYGHYEVAELLVKHGAVVNVADLWKFTPLHEAAAKGKYEICKLLLQHGADPTKKNRDGNTPLDLVKDGDTDIQDLLRGDAALLDAAKK"
 
 # The Repeating sequnece mentioned in reasearch paper of ID:-1EZG
@@ -83,6 +84,41 @@ for i in range(len(s)):
     ans5+=str(dicfact5[s[i]])+" "
     vec5.append((dicfact5[s[i]]))
     
+
+
+
+vec1=np.fft.fft(vec1)
+vec2=np.fft.fft(vec2)
+vec3=np.fft.fft(vec3)
+vec4=np.fft.fft(vec4)
+vec5=np.fft.fft(vec5)
+
+lenx=len(s)
+
+for i in range (0,lenx):
+    vec1[i]=np.real(vec1[i])
+    a=np.sqrt((vec1[i]*vec1[lenx-1-i])/lenx)
+    vec1[i]=a
+
+for i in range (0,lenx):
+    vec2[i]=np.real(vec2[i])
+    a=np.sqrt((vec2[i]*vec2[lenx-1-i])/lenx)
+    vec2[i]=a
+
+for i in range (0,lenx):
+    vec3[i]=np.real(vec3[i])
+    a=np.sqrt((vec3[i]*vec3[lenx-1-i])/lenx)
+    vec3[i]=a
+
+for i in range (0,lenx):
+    vec4[i]=np.real(vec1[i])
+    a=np.sqrt((vec4[i]*vec4[lenx-1-i])/lenx)
+    vec4[i]=a
+
+for i in range (0,lenx):
+    vec5[i]=np.real(vec1[i])
+    a=np.sqrt((vec5[i]*vec5[lenx-1-i])/lenx)
+    vec5[i]=a
     
 
 zscores_vec1 = stats.zscore(vec1)
