@@ -37,8 +37,6 @@ Follow these steps to run the program:
 3. **Open the Genomics_final.ipynb File:**
    - Open the **Genomics_final.ipynb** notebook using either VSCode or Google Colab.
 
-## Run the Programs:
-
 4. **Run the Programs:**
    - Execute the notebook cells step by step.
    - Provide the necessary input when prompted.
