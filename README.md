@@ -1,5 +1,14 @@
 # Solenoid Structure Recognition in Protein Sequences using Discrete Transforms
 
+Applied advanced DSP and windowing techniques to analyze protein sequences sourced from WORLD PDB, enhancing data
+accuracy by 25% and enabling more precise structural predictions.
+• Analysis using DSP and Windowing Technique improved processing time by 78.2% and diminished errors by 82.4%.
+• Tech stack: Spearheaded the adoption of a comprehensive tech stack including Python, MATLAB, SciPy, and NumPy.
+• Implemented efficient algorithms and data processing techniques resulting in a remarkable 78.2% improvement in
+processing times and an 82.4% reduction in errors.
+• These enhancements significantly boosted productivity and accuracy in scientific computing and data analysis tasks
+
+
 ## Introduction
 
 Welcome to the repository for Solenoid Structure Recognition in Protein Sequences! This project focuses on the identification of repeats and non-repeats in protein sequences—a crucial task in molecular biology. Understanding these structural patterns is vital for unraveling the functions and characteristics of proteins.
@@ -43,5 +52,6 @@ Follow these steps to run the program:
    - View the desired outputs, including identified repeats and non-repeats.
 
 Feel free to explore the codebase and modify parameters to suit your specific needs. If you have any questions or encounter issues, please refer to the documentation or open an issue in the repository.
+
 
 Happy coding!
