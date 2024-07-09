@@ -1,0 +1,8 @@
+pandas==1.5.3
+biopython==1.81
+numpy==1.23.5
+matplotlib==3.7.1
+scipy==1.11.1
+scikit-learn==1.2.2
+requests==2.31.0
+flask==2.3.2

@@ -1,0 +1,23 @@
+ ,Chain,UniProt,Name,Organism,Repeat type,Repeat annotation,Copies,Score
+3TWQ,B,Q9H2K2,Poly [ADP-ribose] polymerase tankyrase-2 {ECO:0000305},Homo sapiens (Human),ANK,"524-556,557-589,590-622,",3,0.96
+3Q9N,C,-,-,-,ANK,"1-33,34-65,66-98,99-131,",4,0.95
+3Q9U,D,-,-,-,ANK,"1-33,34-65,66-98,99-131,",4,0.95
+3TWR,A,Q9H2K2,Poly [ADP-ribose] polymerase tankyrase-2 {ECO:0000305},Homo sapiens (Human),ANK,"524-556,557-589,590-622,",3,0.95
+5VHO,G,O75832,26S proteasome non-ATPase regulatory subunit 10,Homo sapiens (Human),ANK,"39-71,72-104,105-136,137-169,170-202,",5,0.94
+5VHP,G,O75832,26S proteasome non-ATPase regulatory subunit 10,Homo sapiens (Human),ANK,"5-37,39-71,72-104,105-136,137-169,170-202,",6,0.94
+5Z2N,B,Q91XL9,Oxysterol-binding protein-related protein 1,Mus musculus (Mouse),ANK,"4-36,46-78,79-111,",3,0.94
+3AJI,C,Q9Z2X2,26S proteasome non-ATPase regulatory subunit 10,Mus musculus (Mouse),ANK,"5-37,39-71,72-105,106-137,138-169,170-202,",6,0.93
+3D9H,A,Q96DX5,Ankyrin repeat and SOCS box protein 9,Homo sapiens (Human),ANK,"35-67,68-100,101-132,133-164,165-197,",5,0.93
+3EHQ,A,Q92882,Osteoclast-stimulating factor 1,Homo sapiens (Human),ANK,"74-104,105-138,139-170,",3,0.93
+3EHQ,B,Q92882,Osteoclast-stimulating factor 1,Homo sapiens (Human),ANK,"74-104,105-138,139-170,",3,0.93
+3EHR,A,Q92882,Osteoclast-stimulating factor 1,Homo sapiens (Human),ANK,"74-104,105-137,138-170,",3,0.93
+3IXE,A,Q13418,Integrin-linked protein kinase,Homo sapiens (Human),ANK,"33-65,66-98,99-130,131-162,",4,0.93
+3TWV,C,Q9H2K2,Poly [ADP-ribose] polymerase tankyrase-2 {ECO:0000305},Homo sapiens (Human),ANK,"491-523,525-557,558-589,590-622,",4,0.93
+3TWW,B,Q9H2K2,Poly [ADP-ribose] polymerase tankyrase-2 {ECO:0000305},Homo sapiens (Human),ANK,"491-523,525-557,558-589,590-622,",4,0.93
+3UTM,B,Q6PFX9,Poly [ADP-ribose] polymerase tankyrase-1 {ECO:0000305},Mus musculus (Mouse),ANK,"328-360,361-393,394-426,427-458,549-581,582-614,",6,0.93
+3V31,A,Q9H9E1,Ankyrin repeat family A protein 2,Homo sapiens (Human),ANK,"181-213,214-246,247-278,279-311,",4,0.93
+4B93,B,Q96NW4,Ankyrin repeat domain-containing protein 27,Homo sapiens (Human),ANK,"743-775,776-807,808-840,841-873,",4,0.93
+4BSZ,B,P46683,Ankyrin repeat-containing protein YAR1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast),ANK,"49-78,91-123,125-156,",3,0.93
+4CYM,D,Q96NW4,Ankyrin repeat domain-containing protein 27,Homo sapiens (Human),ANK,"462-494,495-527,528-559,563-595,",4,0.93
+4CYM,F,Q96NW4,Ankyrin repeat domain-containing protein 27,Homo sapiens (Human),ANK,"462-494,495-527,528-559,563-595,",4,0.93
+4CZ2,E,Q96NW4,Ankyrin repeat domain-containing protein 27,Homo sapiens (Human),ANK,"462-494,495-527,528-559,563-595,",4,0.93
